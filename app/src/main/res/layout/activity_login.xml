@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAlignment="center"
+        android:fontFamily="@font/android101"
+        android:textColor="#3D9399"
+        android:textSize="100px"
+        android:textStyle="bold"
+        android:paddingTop="350px"
+        />
+
+    <TextView
+        android:id="@+id/loginStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:fontFamily="@font/android101"
+        android:textColor="#ff0000"
+        android:textSize="30px"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:inputType="textPersonName"
+        android:hint="Name"
+        android:fontFamily="@font/android101"
+        android:textColor="#3D9399"
+        android:layout_marginTop="200px"
+        android:layout_marginHorizontal="200px"
+        android:background="@null"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:inputType="textPassword"
+        android:hint="Password"
+        android:background="@null"
+        android:fontFamily="@font/android101"
+        android:textColor="#3D9399"
+        android:layout_marginTop="70px"
+        android:layout_marginHorizontal="200px"
+        />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:text="Login"
+        android:fontFamily="@font/android101"
+        android:layout_marginTop="130px"
+        android:layout_marginHorizontal="240px"
+        android:background="@drawable/button"
+        />
+
+    <Button
+        android:id="@+id/singup_login"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:text="Create account"
+        android:fontFamily="@font/android101"
+        android:layout_marginTop="20px"
+        android:layout_marginHorizontal="240px"
+        android:background="@drawable/button"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create an account to play the game"
+        android:textAlignment="center"
+        android:fontFamily="@font/android101"
+        android:textColor="#3D9399"
+        android:textSize="30px"
+        android:textStyle="bold"
+        android:layout_marginTop="50px"
+        />
+</LinearLayout>

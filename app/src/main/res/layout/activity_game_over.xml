@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GAME OVER"
+        android:textAlignment="center"
+        android:fontFamily="@font/android101"
+        android:textColor="#ff0000"
+        android:textSize="100px"
+        android:textStyle="bold"
+        android:paddingTop="350px"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:fontFamily="@font/android101"
+        android:textColor="#ffffff"
+        android:textSize="50px"
+        android:textStyle="bold"
+        android:paddingTop="350px"
+        android:id="@+id/score"
+    />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main Menu"
+        android:textAlignment="center"
+        android:fontFamily="@font/android101"
+        android:textColor="#ffffff"
+        android:textSize="50px"
+        android:textStyle="bold"
+        android:paddingTop="10px"
+        android:id="@+id/mainMenu"
+        />
+</LinearLayout>

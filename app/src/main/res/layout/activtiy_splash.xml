@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/splash"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="GYROBALL"
+        android:fontFamily="@font/android101"
+        android:textAlignment="center"
+        android:textColor="#3D9399"
+        android:textSize="150px"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+
+</LinearLayout>

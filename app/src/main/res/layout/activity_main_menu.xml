@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GYROBALL"
+        android:textAlignment="center"
+        android:fontFamily="@font/android101"
+        android:textColor="#3D9399"
+        android:textSize="100px"
+        android:textStyle="bold"
+        android:paddingTop="350px"/>
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:fontFamily="@font/android101"
+        android:textColor="#ffffff"
+        android:textSize="30px"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/newGame"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:text="Play game"
+        android:fontFamily="@font/android101"
+        android:layout_marginTop="400px"
+        android:layout_marginHorizontal="240px"
+        android:background="@drawable/button"
+       />
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:text="Map"
+        android:fontFamily="@font/android101"
+        android:layout_marginTop="20px"
+        android:layout_marginHorizontal="240px"
+        android:background="@drawable/button"
+        />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:text="Exit"
+        android:fontFamily="@font/android101"
+        android:layout_marginTop="20px"
+        android:layout_marginHorizontal="240px"
+        android:background="@drawable/button"
+         />
+</LinearLayout>
